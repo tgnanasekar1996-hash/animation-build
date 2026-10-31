@@ -33,7 +33,6 @@ jobs:
           ANIMATION_PROMPT: ${{ github.event.inputs.prompt }}
         run: |
           echo "Generating animation for prompt: $ANIMATION_PROMPT"
-          # Replace this line with your specific generator execution script
           mkdir -p .stix/output
           echo "Placeholder output" > .stix/output/status.txt
 
